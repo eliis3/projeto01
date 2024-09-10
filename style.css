@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(251, 209, 230);
+}
+header{
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(179, 18, 179), lavender);
+    padding: 10px;
+}
+.título{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    text-shadow: 0px 5px 3px darkmagenta;
+}
+nav{
+    margin-top: 15px;
+    padding-bottom: 6px;
+}
+nav a{
+    color: rgb(137, 45, 184);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+nav a:hover{
+    color: brown;
+    font-weight: bold;
+}
+.section-image1{
+    width: 100%; /*largura da seçāo*/
+    height: 400px; /*altura da seçāo*/
+    /*texto*/
+    text-align: center;
+    padding: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    color: darkred;
+    text-shadow:0px 5px 4px darkmagenta;
+    border-radius: 20px;
+    /*imagem de fundo:*/
+    background-image: url(./img/drive-download-20240828T174406Z-001/imagem1.jpg);
+    background-position: center;background-size: cover; /*ocupa todo o container*/
+    background-repeat: no-repeat; /*nao repete*/
+    background-attachment: fixed; /*fixa a imagem ao rolar a tela*/
+}
+.section-image1 h1{
+    color: mediumorchid;
+    text-shadow: 0px 5px 4px crimson;
+    font-weight: bold;
+    margin-top: 50px;
+}
+section{
+    width: 100%; /*largura da seçāo*/
+    height: 400px; /*altura da seçāo*/
+    /*texto*/
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 30px;
+    color: darkorchid;
+    text-shadow:0px 5px 4px darkmagenta;
+    border-radius: 20px;
+    text-align: justify;
+}
+section h1{
+    text-align: center;
+    text-shadow: 3px 4px 3px rgb(139, 61, 95);
+    color: darkred;
+}
+section p{
+    padding: 20px;
+    font-size: 30;
+    margin-top: 30px;
+}
+.section-image2{
+    background-image: url(./img/drive-download-20240828T174406Z-001/imagem2.jpg);
+    background-position: center;background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.section-image3{
+    background-image: url(./img/drive-download-20240828T174406Z-001/imagem3.jpg);
+    background-position: center;background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.section-image4{
+    background-image: url(./img/drive-download-20240828T174406Z-001/imagem4.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+footer{
+    text-align: center;
+    background: linear-gradient(to top, rgb(179, 18, 179), lavender);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 23px;
+    font-weight: bold;
+}
